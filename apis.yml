@@ -1,7 +1,28 @@
 aid: soha-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/soha-systems.png
 name: Soha Systems
-description: Soha Systems is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Soha Systems was a cloud-delivered secure application access company founded in 2013 and
+  headquartered in Sunnyvale, California. Its "Soha Cloud" service let enterprises grant
+  users and third parties fast, secure, per-application access to internal apps without a
+  traditional VPN, an early software-defined perimeter / zero-trust network access (ZTNA)
+  approach. Backed by Andreessen Horowitz (a16z), Menlo Ventures, and Cervin Ventures, Soha
+  Systems was acquired by Akamai Technologies in October 2016, and its technology became the
+  basis for Akamai Enterprise Application Access (EAA). The company no longer operates
+  independently and publishes no standalone developer portal, documentation, or public API;
+  its former domain (soha.io) now resolves only to Akamai edge infrastructure and serves no
+  content.
 url: https://raw.githubusercontent.com/api-evangelist/soha-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,23 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Security
+- Zero Trust
+- Secure Access
+- Software-Defined Perimeter
+- Networking
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
